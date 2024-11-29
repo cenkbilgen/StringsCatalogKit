@@ -1,0 +1,429 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "alpaca" : {
+
+    },
+    "Amazon rainforest" : {
+
+    },
+    "Apple's ecosystem is robust." : {
+
+    },
+    "Arctic Circle" : {
+
+    },
+    "Barcelona" : {
+
+    },
+    "baseball" : {
+
+    },
+    "Bay Area" : {
+
+    },
+    "bay leaf" : {
+
+    },
+    "beach" : {
+
+    },
+    "bonsai tree" : {
+
+    },
+    "butterfly" : {
+
+    },
+    "cactus" : {
+
+    },
+    "Cambridge" : {
+
+    },
+    "canyon" : {
+
+    },
+    "caravansary" : {
+
+    },
+    "Cat" : {
+
+    },
+    "chameleon" : {
+
+    },
+    "cherry blossom" : {
+
+    },
+    "city park" : {
+
+    },
+    "cliff" : {
+
+    },
+    "coconut" : {
+
+    },
+    "coffee mug" : {
+
+    },
+    "Compilers optimize Swift code." : {
+
+    },
+    "Concurrency in Swift is structured. It uses async/await to run tasks asynchronously, promoting user-friendly interfaces and improving app performance. Swift's concurrency model ensures that apps remain responsive and can handle complex tasks." : {
+
+    },
+    "coral reef" : {
+
+    },
+    "cultural center" : {
+
+    },
+    "Data is stored in variables." : {
+
+    },
+    "desert" : {
+
+    },
+    "Develop apps with the Swift language." : {
+
+    },
+    "Developer tools enhance productivity." : {
+
+    },
+    "dewdrop" : {
+
+    },
+    "Dog" : {
+
+    },
+    "dolphin" : {
+
+    },
+    "eagle" : {
+
+    },
+    "Eiffel Tower" : {
+
+    },
+    "elephant" : {
+
+    },
+    "Elephant" : {
+
+    },
+    "Enums provide clean switching mechanisms." : {
+
+    },
+    "fishing boat" : {
+
+    },
+    "forest" : {
+
+    },
+    "Functional programming principles." : {
+
+    },
+    "Galapagos" : {
+
+    },
+    "Generics allow flexible code." : {
+
+    },
+    "giraffe" : {
+
+    },
+    "goldfish" : {
+
+    },
+    "grasslands" : {
+
+    },
+    "greenhouse" : {
+
+    },
+    "grove" : {
+
+    },
+    "guitar" : {
+
+    },
+    "Hello, world!" : {
+
+    },
+    "Helpers and extensions standardize code." : {
+
+    },
+    "herb garden" : {
+
+    },
+    "Himalayas" : {
+
+    },
+    "jellyfish" : {
+
+    },
+    "jungle" : {
+
+    },
+    "kangaroo" : {
+
+    },
+    "koala" : {
+
+    },
+    "lagoon" : {
+
+    },
+    "laptop" : {
+
+    },
+    "lemon tree" : {
+
+    },
+    "library" : {
+
+    },
+    "library book" : {
+
+    },
+    "lighthouse" : {
+
+    },
+    "lion" : {
+
+    },
+    "lion's den" : {
+
+    },
+    "Mango" : {
+
+    },
+    "mangrove" : {
+
+    },
+    "maple syrup" : {
+
+    },
+    "meadow" : {
+
+    },
+    "mountain" : {
+
+    },
+    "mountain range" : {
+
+    },
+    "New York" : {
+
+    },
+    "oak tree" : {
+
+    },
+    "Object-oriented programming with classes." : {
+
+    },
+    "ocean" : {
+
+    },
+    "orchid" : {
+
+    },
+    "otter" : {
+
+    },
+    "palmtop" : {
+
+    },
+    "panda" : {
+
+    },
+    "Paris" : {
+
+    },
+    "pathway" : {
+
+    },
+    "peacock" : {
+
+    },
+    "penguin" : {
+
+    },
+    "periwinkle" : {
+
+    },
+    "pineapple" : {
+
+    },
+    "polar bear" : {
+
+    },
+    "polar region" : {
+
+    },
+    "Protocols define methods." : {
+
+    },
+    "pumpkin" : {
+
+    },
+    "rainforest" : {
+
+    },
+    "rhinoceros" : {
+
+    },
+    "river" : {
+
+    },
+    "riverside" : {
+
+    },
+    "Rocky Mountains" : {
+
+    },
+    "rose" : {
+
+    },
+    "ruins" : {
+
+    },
+    "Sahara Desert" : {
+
+    },
+    "sand dune" : {
+
+    },
+    "sandcastle" : {
+
+    },
+    "savanna" : {
+
+    },
+    "savannah" : {
+
+    },
+    "seashore" : {
+
+    },
+    "sequoia" : {
+
+    },
+    "skyscraper" : {
+
+    },
+    "solar eclipse" : {
+
+    },
+    "Soup" : {
+
+    },
+    "starfish" : {
+
+    },
+    "sunflower" : {
+
+    },
+    "sunset" : {
+
+    },
+    "swamp" : {
+
+    },
+    "Swift has powerful type inference." : {
+
+    },
+    "Swift is an innovative programming language created by Apple. It allows developers to write safer, more reliable code with less boilerplate. Swift’s syntax is designed to encourage good coding practices from the beginning." : {
+
+    },
+    "Swift is type-safe." : {
+
+    },
+    "Swift programming is powerful." : {
+
+    },
+    "Swift’s automatic memory management helps prevent common issues like memory leaks. Its integrated ARC system allocates and deallocates memory resources, maintaining optimal app performance. This allows developers to focus more on writing efficient algorithms." : {
+
+    },
+    "Swift's package manager makes it simple to include third-party libraries in projects. It manages dependencies, simplifies the build process, and ensures compatibility across different versions of Swift. Allowing developers to share and collaborate on code more effectively." : {
+
+    },
+    "SwiftUI makes designing easy." : {
+
+    },
+    "tea garden" : {
+
+    },
+    "The current number is %lld." : {
+
+    },
+    "The value of pi is approximately %lf." : {
+
+    },
+    "tiger" : {
+
+    },
+    "Today's date is %@." : {
+
+    },
+    "town square" : {
+
+    },
+    "tulip" : {
+
+    },
+    "tundra" : {
+
+    },
+    "university" : {
+
+    },
+    "Use structs for data modeling." : {
+
+    },
+    "valley" : {
+
+    },
+    "Variables and constants in Swift." : {
+
+    },
+    "velvet leaf" : {
+
+    },
+    "Venice" : {
+
+    },
+    "vineyard" : {
+
+    },
+    "violin" : {
+
+    },
+    "volcano" : {
+
+    },
+    "waterfall" : {
+
+    },
+    "whale shark" : {
+
+    },
+    "wildflower" : {
+
+    },
+    "wolf" : {
+
+    },
+    "Xcode is Apple's IDE for macOS. It provides tools for creating, testing, and optimizing applications for all Apple platforms. SwiftUI's previews and live updates make it easier to design UIs efficiently." : {
+
+    },
+    "Xcode simplifies app creation." : {
+
+    },
+    "zebra" : {
+
+    }
+  },
+  "version" : "1.0"
+}
