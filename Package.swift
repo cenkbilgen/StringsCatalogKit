@@ -10,10 +10,30 @@ let package = Package(
         .library(
             name: "StringsCatalogKit",
             targets: ["StringsCatalogKit"]),
+        .executable(
+            name: "strings_catalog_tool",
+            targets: ["strings_catalog_tool"])
+    ],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.5.0"),
     ],
     targets: [
         .target(
-            name: "StringsCatalogKit"),
+            name: "StringsCatalogKit",
+            swiftSettings: [
+                .unsafeFlags(["-warnings-as-errors"], .when(configuration: .debug)),
+            ]),
+        .executableTarget(
+            name: "strings_catalog_tool",
+            dependencies: [
+                "StringsCatalogKit",
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+            ],
+            path: "Sources/Tool",
+            swiftSettings: [
+                .unsafeFlags(["-warnings-as-errors"], .when(configuration: .debug)),
+            ]
+        ),
         .testTarget(
             name: "StringsCatalogKitTests",
             dependencies: ["StringsCatalogKit"],
