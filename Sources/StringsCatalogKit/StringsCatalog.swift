@@ -70,7 +70,7 @@ extension StringsCatalog {
         }
     }
     
-    public func removeLanguage(code: String) {
+    public func removeLanguage(code: String) throws {
         for string in strings {
             if string.value.hasLanuage(code: code) {
                 var entry = string.value
