@@ -1,3 +1,5 @@
+Package with two targets: the macOS executable `strings_catalog_tool` and the library `StringsCatalogKit` used by this tool and [translate_strings](https://github.com/cenkbilgen/translate_strings). 
+
 # Strings Catalog Tool
 
 `strings_catalog_tool` is a command-line utility designed to help examine and manipulate Xcode Strings Catalog files. This tool includes functions Xcode 16 doesn't currently have, including listing language keys, listing all language codes, and removing translations for a specified language from the catalog.
@@ -50,14 +52,3 @@ Remove all translations for a specified language code.
 ```bash
 strings_catalog_tool remove_language --file Path/To/Your/Localizable.xcstrings LANGUAGE_CODE
 ```
-
-## Library
-Includes a target for StringsCatalogKit, the library used by this tool and [translate_strings](https://github.com/cenkbilgen/translate_strings). 
-Targets:
-
-  - **Library:** `StringsCatalogKit`
-    - Offers a set of APIs to efficiently manage localization strings.
-    - Compatible with macOS version 15 and above.
-    
-  - **Executable:** `strings_catalog_tool`
-    - A command-line tool that leverages `StringsCatalogKit` for handling string operations.
