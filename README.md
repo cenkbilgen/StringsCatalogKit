@@ -1,4 +1,4 @@
-Package with two targets: the macOS executable `strings_catalog_tool` and the library `StringsCatalogKit` used by this tool and [translate_strings](https://github.com/cenkbilgen/translate_strings). 
+Package with two targets: the executable `strings_catalog_tool` and the library `StringsCatalogKit` used by this tool and [translate_strings](https://github.com/cenkbilgen/translate_strings). 
 
 # Strings Catalog Tool
 
