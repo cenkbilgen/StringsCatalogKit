@@ -12,8 +12,6 @@ Package with two targets: the macOS executable `strings_catalog_tool` and the li
 
 ## Installation
 
-## Building
-
 1. Clone the repository 
 1. Run `swift build -c release` to build the `strings_catalog_tool` executable in `./.build/release`.
 2. Copy the executable to a location in your `$PATH` for easy access.
