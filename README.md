@@ -1,4 +1,4 @@
-# strings_catalog_tool
+# StringsCatalogKit and strings_catalog_tool
 
 A tool to examine and modify the Xcode Strings Catalog files, providing additional functionality not all currently available in Xcode 16 or xcodebuild.
 
