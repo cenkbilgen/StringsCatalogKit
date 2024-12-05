@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "StringsCatalogKit",
             swiftSettings: [
-                .unsafeFlags(["-warnings-as-errors"], .when(configuration: .debug)),
+                // .unsafeFlags(["-warnings-as-errors"], .when(configuration: .debug)),
             ]),
         .executableTarget(
             name: "strings_catalog_tool",
