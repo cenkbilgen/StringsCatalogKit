@@ -1,52 +1,49 @@
-Package with two targets: the executable `strings_catalog_tool` and the library `StringsCatalogKit` used by this tool and [translate_strings](https://github.com/cenkbilgen/translate_strings). 
+# strings_catalog_tool
 
-# Strings Catalog Tool
+A tool to examine and modify the Xcode Strings Catalog files, providing additional functionality not all currently available in Xcode 16 or xcodebuild.
 
-`strings_catalog_tool` is a command-line utility designed to help examine and manipulate Xcode Strings Catalog files. This tool includes functions Xcode 16 doesn't currently have, including listing language keys, listing all language codes, and removing translations for a specified language from the catalog.
+## Getting Started
 
-## Features
+`strings_catalog_tool` simplifies working with Xcode Strings Catalog files by offering features such as listing language keys, displaying all available languages, and removing translations for a specific language. 
 
-- **List Keys**: Display all base language keys in the strings catalog.
-- **List Languages**: Display all available languages in the catalog.
-- **Remove Language**: Remove all translations for a specified language.
+### Example Usage
 
-## Installation
+To list all base language keys in your Strings Catalog, call:
 
-1. Clone the repository 
-1. Run `swift build -c release` to build the `strings_catalog_tool` executable in `./.build/release`.
-2. Copy the executable to a location in your `$PATH` for easy access.
-
-## Usage
-
-Below are detailed instructions on how to use each of the available commands:
-
-### List Keys
-
-```bash
+```shell
 strings_catalog_tool list_keys
 ```
 
-- **Options**:
-  - `-f`, `--file`: Specify the input Strings Catalog file. Defaults to `Localizable.xcstrings`.
-  - `-c`, `--comma-separated`: Output keys as comma-separated values.
+Ensure that the initial Strings Catalog file is added to your Xcode project. More details about Strings Catalogs can be found [here](https://developer.apple.com/documentation/xcode/localizing-and-varying-text-with-a-string-catalog).
 
-### List Languages
+By default, the tool operates on the `Localizable.xcstrings` file located in the path where the command is run.
 
-List all available languages in your Strings Catalog file.
+### Usage
 
-```bash
-strings_catalog_tool list_languages
+```
+OVERVIEW: A utility for examining and manipulating Xcode Strings Catalogs.
+
+USAGE: strings_catalog_tool <subcommand>
+
+OPTIONS:
+  --version               Show the version.
+  -h, --help              Show help information.
+
+SUBCOMMANDS:
+  list_keys               List all base language keys in the strings catalog.
+  list_languages          Display all available languages in the catalog.
+  remove_language         Remove all translations for a specified language code.
+
+  See 'strings_catalog_tool help <subcommand>' for detailed help.
 ```
 
-- **Options**:
-  - `-f`, `--file`: Specify the input Strings Catalog file. Defaults to `Localizable.xcstrings`.
-  - `-c`, `--comma-separated`: Output languages as comma-separated values.
-  - `count`: (Planned feature) Display the count of keys translated for each language.
+## Building
 
-### Remove Language
+1. Run `swift build -c release` to build the `strings_catalog_tool` executable in `./.build/release`.
+2. Copy the executable to a location in your `$PATH` for easy access.
 
-Remove all translations for a specified language code.
+## Package Targets
 
-```bash
-strings_catalog_tool remove_language --file Path/To/Your/Localizable.xcstrings LANGUAGE_CODE
-```
+This package includes two targets:
+1. `strings_catalog_tool`: The command-line utility.
+2. `StringsCatalogKit`: A library shared with other tools like [`translate_strings`](https://github.com/cenkbilgen/translate_strings).
