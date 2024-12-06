@@ -1,6 +1,9 @@
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcenkbilgen%2FStringsCatalogKit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/cenkbilgen/StringsCatalogKit)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcenkbilgen%2FStringsCatalogKit%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cenkbilgen/StringsCatalogKit)
+
 # StringsCatalogKit & strings_catalog_tool
 
-A tool to examine and modify the Xcode Strings Catalog files, providing additional functionality not all currently available in Xcode 16 or xcodebuild.
+A library and command-line tool to examine and modify the Xcode Strings Catalog files, providing additional functionality not all currently available in Xcode 16 or xcodebuild.
 
 ## Getting Started
 
